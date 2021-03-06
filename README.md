@@ -1,8 +1,10 @@
 Our CoMPILE has two versions. 
 
-The first version is implemented based on GraIL (https://github.com/kkteru/grail), in which we evaluate our message passing model on the original inductive datasets proposed by the authors of the GraIL. We thank very much for their code sharing.
+
 
 #################################version 1#########################################
+
+The first version is implemented based on GraIL (https://github.com/kkteru/grail), in which we evaluate our message passing model on the original inductive datasets proposed by the authors of the GraIL. We thank very much for their code sharing.
 
 To run the code, firstly you need to unrar the data.rar and place the folder under CoMPILE_github.
 

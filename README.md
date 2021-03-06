@@ -1,4 +1,8 @@
-Our CoMPILE has two versions. The first version is implemented based on GraIL (https://github.com/kkteru/grail), in which we evaluate our model on the original inductive datasets proposed by the authors of the GraIL. We thank very much for their code sharing.
+Our CoMPILE has two versions. 
+
+The first version is implemented based on GraIL (https://github.com/kkteru/grail), in which we evaluate our model on the original inductive datasets proposed by the authors of the GraIL. We thank very much for their code sharing.
+
+#################################version 1#########################################
 
 To train the model (take FB15k-237 inductive v4 dataset as example):
 
@@ -16,5 +20,5 @@ To evaluate the Hits@10 score of the trained model:
      python test_ranking.py -d fb237_v4_ind -e compile_fb_v4_ind
      
      
-
-
+#################################version 2#########################################
+To be updated...

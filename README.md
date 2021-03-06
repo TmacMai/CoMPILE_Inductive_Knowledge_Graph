@@ -24,4 +24,6 @@ To evaluate the Hits@10 score of the trained model:
      
 #################################version 2#########################################
 
+In version 2, we implement our inductive learning system, including the data filtering, directed subgraph extraction, and the message passing mechanism.
+
 To be updated...

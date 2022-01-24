@@ -1,0 +1,14 @@
+============ Initialized logger ============
+add_traspose_rels: False
+dataset: nell_v4_ind
+enclosing_sub_graph: True
+experiment_name: compile_nell_v4_ind2
+file_paths: {'graph': './data/nell_v4_ind/train.txt', 'links': './data/nell_v4_ind/test.txt'}
+hop: 3
+kge_model: TransE
+mode: sample
+model_path: experiments/compile_nell_v4_ind2/best_graph_classifier.pth
+ruleN_pred_path: ./data/nell_v4_ind/pos_predictions.txt
+use_kge_embeddings: False
+============================================
+MRR | Hits@1 | Hits@5 | Hits@10 : 0.6328534341849693 | 0.5588235294117647 | 0.7065663474692202 | 0.7435020519835841

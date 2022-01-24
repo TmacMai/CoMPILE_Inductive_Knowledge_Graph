@@ -1,0 +1,24 @@
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 32
+constrained_neg_prob: 0
+dataset: nell_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: utils/../experiments/compile_nell_v4_ind2
+experiment_name: compile_nell_v4_ind2
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils/..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: utils/../experiments/compile_nell_v4_ind2/test_nell_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================

@@ -1,0 +1,108 @@
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: utils/../experiments/compile_nell_v4_ind
+experiment_name: compile_nell_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils/..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: utils/../experiments/compile_nell_v4_ind/test_nell_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from utils/../experiments/compile_nell_v4_ind/best_graph_classifier.pth
+Device: cuda:0
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.78092244755886, 'auc_pr': 0.8432636131804843}
+
+Avg test Set Performance -- mean auc :0.78092244755886 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8432636131804843 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: utils/../experiments/compile_nell_v4_ind
+experiment_name: compile_nell_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils/..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: utils/../experiments/compile_nell_v4_ind/test_nell_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from utils/../experiments/compile_nell_v4_ind/best_graph_classifier.pth
+Device: cuda:0
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.7682933447613131, 'auc_pr': 0.8343463225340576}
+
+Avg test Set Performance -- mean auc :0.7682933447613131 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8343463225340576 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: utils/../experiments/compile_nell_v4_ind
+experiment_name: compile_nell_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils/..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: utils/../experiments/compile_nell_v4_ind/test_nell_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from utils/../experiments/compile_nell_v4_ind/best_graph_classifier.pth
+Device: cuda:0
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.7790912884735225, 'auc_pr': 0.8423223582566522}
+
+Avg test Set Performance -- mean auc :0.7790912884735225 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8423223582566522 std auc_pr: 0.0

@@ -32,7 +32,7 @@ def process_files(files, saved_relation2id=None):
 
         data = []
         with open(file_path) as f:
-            file_data = [line.split(' ') for line in f.read().split('\n')[:-1]]
+            file_data = [line.split() for line in f.read().split('\n')[:-1]]
 
         for triplet in file_data:
             if triplet[0] not in entity2id:

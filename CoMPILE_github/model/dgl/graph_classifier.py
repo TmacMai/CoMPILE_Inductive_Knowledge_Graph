@@ -198,8 +198,8 @@ class GraphClassifier(nn.Module):
             source_node.append(source_now)
             target_node.append(target_now)
             
-            target_now = target_now.unsqueeze(0).repeat(list_num_edges[i], 1)
-            source_now = source_now.unsqueeze(0).repeat(list_num_edges[i], 1)
+            target_now = target_now.unsqueeze(0).repeat(list_num_edges[i], 1).long()
+            source_now = source_now.unsqueeze(0).repeat(list_num_edges[i], 1).long()
             total_source.append(source_now); total_target.append(target_now)
             
             node_count += list_num_nodes[i]

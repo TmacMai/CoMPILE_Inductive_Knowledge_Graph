@@ -1,3 +1,6 @@
+News: version 2 has been uploaded.
+
+
 Our CoMPILE has two versions. 
 
 
